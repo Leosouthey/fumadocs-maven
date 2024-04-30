@@ -1,0 +1,26 @@
+{
+  "name": "fumadocs-maven",
+  "version": "1.0.0",
+  "author": "Leosouthey",
+  "repository": "github:leosouthey/fumadocs-maven",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "types:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@mdx-js/mdx": "^3.0.1",
+    "remark": "^15.0.1",
+    "tsup": "^8.0.2",
+    "unified": "^11.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
