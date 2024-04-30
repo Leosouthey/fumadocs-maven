@@ -50,6 +50,8 @@ export function useMDXComponents(components: MDXComponents) {
 
 Create code blocks with package-maven as language.
 
+````text
 ```package-maven
 org.springframework.boot:spring-boot-starter-web:3.0.0
 ```
+````
